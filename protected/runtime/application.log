@@ -1,0 +1,24 @@
+2013/09/03 21:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "message/helloWorld".' in /var/www/test.home/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/test.home/framework/web/CWebApplication.php(141): CWebApplication->runController('message/helloWo...')
+#1 /var/www/test.home/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/helloworld/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=message/helloWorld
+---
+2013/09/03 21:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "message/helloWorld".' in /var/www/test.home/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/test.home/framework/web/CWebApplication.php(141): CWebApplication->runController('message/helloWo...')
+#1 /var/www/test.home/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/helloworld/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=message/helloWorld
+---
+2013/09/03 21:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "message".' in /var/www/test.home/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/test.home/framework/web/CWebApplication.php(141): CWebApplication->runController('message')
+#1 /var/www/test.home/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/helloworld/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=message
+---
